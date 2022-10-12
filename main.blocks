@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="U%VM,cKP9v$)J;zp)-8X" x="399" y="-27"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="controls_repeat_ext" id="sE$DbmbhA5d-:ozFXMd2"><value name="TIMES"><shadow type="math_whole_number" id="8uF4Z3rR]y1oXP[$6#N1"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="2B!Z+A(1u+Ja$~U[]rEk"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="O$SqrmHE;0=y.gkdpMa|"><value name="pause"><shadow type="timePicker" id="F?GoSLLo#vfI%SD9gbft"><field name="ms">100</field></shadow></value></block></next></block></statement></block></statement></block><block type="device_gesture_event" id="+5FYYZ0+xLJ-..6XjId~" x="0" y="0"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="controls_repeat_ext" id="NorKTrs#^gSh7G_2g:tT"><value name="TIMES"><shadow type="math_whole_number" id="6W;tpn8^4*#bP)0l[^?("><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="`;Qy@4j5EF:Yw?RL)3[)"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="nW7{@#90_bgC]mHnbP?y"><value name="pause"><shadow type="timePicker" id="+5Fp[x@_NJS-sgdc_=*G"><field name="ms">100</field></shadow></value></block></next></block></statement></block></statement></block></xml>
